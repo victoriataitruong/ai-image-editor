@@ -1,0 +1,10 @@
+npm install -D tailwindcss@3
+npx tailwindcss init -p
+
+if these are unknown rules:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+control + shift + p
+change language to tailwind

@@ -1,0 +1,67 @@
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: #f0f0f0; /* Light background to see the canvas area */
+}
+
+.canvas-container {
+  position: relative;
+  width: 100%;
+}
+
+canvas {
+  border: 1px solid #ccc; /* Adds a border around the canvas */
+  max-width: 100%; /* Ensures canvas scales with container */
+}
+
+/* New styles for buttons */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px; /* Added for spacing */
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
